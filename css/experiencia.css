@@ -1,0 +1,86 @@
+.experiencia {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.texto-experiencia {
+    font-size: 1.2rem;
+    line-height: 1.33;
+    max-width: 64ch;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.div-exp strong {
+    color: #3F0D12;
+}
+
+.titulo-exp {
+    font-size: 10rem;
+    line-height: 1.1;
+    max-width: 5ch;
+    font-family: 'Bebas Neue', cursive;
+    word-break: break-all;
+    letter-spacing: 8px;
+    text-align: left;
+    color: #242424;
+}
+
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: #f6f5f5;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.empresa::before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 20px;
+    background: linear-gradient(#3F0D12, #A71D31);
+    position: absolute;
+    top: 20px;
+    left: -5px;
+}
+
+.ano-exp {
+    position: absolute;
+    top: 23px;
+    left: -80px;
+    color: #8F8F8F;
+    font-size: 0.75rem;
+}
+
+.nome-empresa {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    font-weight: bold;
+    text-shadow: 1px 0 #0000005e;
+}
+
+.descri {
+    font-size: 0.85rem;
+    color: #8F8F8F;
+    line-height: 1.4;
+}
+
+.habilidades-empresa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: start;
+}
+
+.tag-tec {
+    font-size: 0.875rem;
+    border-radius: 4px;
+    background-color: #121212;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}

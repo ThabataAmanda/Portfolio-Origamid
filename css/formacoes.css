@@ -1,0 +1,80 @@
+.area-formacao {
+    background-color: #242424;
+    max-width: 100%;
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    ;
+}
+
+.area-formacao h1 {
+    color: white;
+    text-align: left;
+}
+
+.container-formacoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 60px;
+}
+
+.div-svg {
+    position: absolute;
+    left: -30px;
+    top: 30px;
+    width: 55px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.img-icon {
+    object-fit: contain;
+    width: 35%;
+}
+
+.formacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    background: #363636;
+    border: 2px solid rgba(0, 0, 0, 0.49);
+    border-radius: 10px;
+    padding: 25px 30px;
+    position: relative;
+}
+
+.formacao::after {
+    content: " ";
+    position: absolute;
+    width: 55px;
+    height: 30px;
+    left: -30px;
+    top: 30px;
+    background: #A71D31;
+    border-radius: 10px;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.formacao .esquerda h4, .formacao .quando, .formacao .situacao {
+    color: white;
+    white-space: nowrap;
+}
+
+.formacao .instituicao, .formacao .tipo {
+    color: #959595;
+}
+
+.situacao {
+    grid-column: 1 / -1;
+    width: 100%;
+    text-align: center;
+}

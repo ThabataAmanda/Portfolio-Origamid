@@ -1,0 +1,28 @@
+main {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+
+main>div>img{
+    max-height: 100%;
+}
+
+main>h1::before {
+    content: "";
+    width: 10px;
+    height: 132px;
+    background-color: #3F0D12;
+    position: absolute;
+    top: 29px;
+    left: -20px;
+    border-radius: 5px;
+}
+
+.font-min {
+    font-size: 0.85rem;
+}
