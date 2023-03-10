@@ -6,7 +6,6 @@ Código e protótipo desenvolvido durante os cursos : UI Design para Iniciantes 
 ![capa](https://user-images.githubusercontent.com/63726379/224431408-22fa98e4-5105-4641-b956-dced2768c0cb.png)
 
 # 🚀 Tecnologias
-Esse projeto está sendo desenvolvido com as seguintes tecnologias: <br>
 <li> HTML
 <br>
 <li> CSS
