@@ -7,7 +7,6 @@ main {
     gap: 100px;
 }
 
-
 main>div>img{
     max-height: 100%;
 }

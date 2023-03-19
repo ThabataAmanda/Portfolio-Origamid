@@ -1,7 +1,8 @@
-@import './header.css';
-@import './global.css';
-@import './introducao.css';
-@import './experiencia.css';
-@import './projetos.css';
-@import './formacoes.css';
-@import './responsivo.css';
+@import "./global.css";
+@import "./header.css";
+@import "./introducao.css";
+@import "./experiencia.css";
+@import "./projetos.css";
+@import "./formacoes.css";
+@import "./footer.css";
+@import "./responsivo.css";
